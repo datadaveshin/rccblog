@@ -10,5 +10,15 @@
   <%= @post.body %>
 </p>
 
+<p>
+  <em>Author:</em>
+  <%= @post.author %>
+</p>
+
+<p>
+  <em>Institute:</em>
+  <%= @post.institute %>
+</p>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
